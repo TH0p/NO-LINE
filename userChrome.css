@@ -1,0 +1,13 @@
+/* Oculta o separador entre abas fixadas e normais */
+.pinned-tabs-container-separator {
+    display: none !important;
+}
+
+/* Força a exibição do botão de limpar/fechar abas */
+#zen-unload-tabs-button,
+#zen-clean-tabs-button,
+.zen-unload-tabs-button {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
