@@ -3,11 +3,14 @@
     display: none !important;
 }
 
-/* Força a exibição do botão de limpar/fechar abas */
+/* Força a exibição de botões de ação e limpeza da barra lateral do Zen */
 #zen-unload-tabs-button,
 #zen-clean-tabs-button,
-.zen-unload-tabs-button {
-    display: flex !important;
+.zen-unload-tabs-button,
+toolbarbutton[id*="unload"],
+toolbarbutton[id*="clean"] {
+    display: inline-flex !important;
     visibility: visible !important;
     opacity: 1 !important;
+    pointer-events: auto !important;
 }
